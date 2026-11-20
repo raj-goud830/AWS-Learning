@@ -1,0 +1,111 @@
+# Understanding AWS and Its Global Infrastructure ☁️
+
+After learning the basics of Cloud Computing, the next step is understanding Amazon Web Services (AWS) and how its global infrastructure works.
+
+Let's explore four important AWS concepts every beginner should know.
+
+## 1. What is AWS?
+
+**Amazon Web Services (AWS)** is a cloud computing platform provided by Amazon. It offers services such as computing, storage, databases, networking, security, and application deployment over the internet.
+
+Instead of purchasing physical servers, businesses can use AWS resources and pay according to their usage.
+
+**Popular AWS Services:**
+- **EC2:** Virtual servers in the cloud.
+- **S3:** Object storage for files and data.
+- **IAM:** Identity and access management.
+- **VPC:** Create private virtual networks.
+- **RDS:** Managed relational databases.
+- **Lambda:** Run code without managing servers.
+
+## 2. AWS Global Infrastructure
+
+AWS Global Infrastructure is a worldwide network of data centers and networking facilities that provides reliable, scalable, and secure cloud services.
+
+It consists of three important components:
+
+1. Regions
+2. Availability Zones
+3. Edge Locations
+
+These components help businesses deploy applications closer to users and improve performance and availability.
+
+## 3. Regions, Availability Zones, and Edge Locations
+
+**1. AWS Regions**
+
+A Region is a separate geographical area where AWS operates its infrastructure.
+
+Examples:
+- Asia Pacific (Mumbai) – ap-south-1
+- Asia Pacific (Hyderabad) – ap-south-2
+- US East (N. Virginia) – us-east-1
+
+Regions help businesses choose where to deploy their applications based on performance, compliance, and business requirements.
+
+**2. Availability Zones (AZs)**
+
+An Availability Zone consists of one or more discrete data centers within an AWS Region.
+
+Each Availability Zone has independent power, networking, and connectivity.
+
+**Example:** If an application runs across multiple Availability Zones, it can continue operating even if one zone experiences a failure.
+
+**3. Edge Locations**
+
+Edge Locations are AWS sites used to deliver content closer to end users.
+
+They are commonly used by Amazon CloudFront, AWS's Content Delivery Network (CDN).
+
+**Example:** When someone visits your website, CloudFront can deliver cached images, videos, and other content from a nearby Edge Location, reducing loading time.
+
+### Quick Comparison
+
+| Component | Purpose |
+|---|---|
+| Region | Geographical deployment |
+| Availability Zone | High availability and fault tolerance |
+| Edge Location | Faster content delivery |
+
+## 4. AWS Shared Responsibility Model
+
+The Shared Responsibility Model explains how security responsibilities are divided between AWS and its customers.
+
+It has two main parts:
+
+**AWS Responsibility – Security OF the Cloud**
+
+AWS manages the security of the underlying cloud infrastructure, including:
+- Physical data centers.
+- Hardware and networking.
+- Infrastructure and virtualization.
+- Physical security.
+
+**Customer Responsibility – Security IN the Cloud**
+
+Customers are responsible for securing what they deploy and configure in AWS, including:
+- Data protection.
+- User access and permissions.
+- Application security.
+- Operating system updates (depending on the service).
+- Network configurations.
+
+**Example:**
+
+If you launch an EC2 instance, AWS manages the physical server, but you are responsible for securing the operating system, configuring access, and protecting your application.
+
+The exact division of responsibility depends on the AWS service being used.
+
+## Conclusion
+
+Understanding AWS, its Global Infrastructure, and the Shared Responsibility Model is essential for anyone starting a cloud computing journey.
+
+These fundamentals help you understand how AWS delivers cloud services and how organizations maintain availability and security.
+
+**Keep Learning. Keep Building. Keep Exploring AWS! 🚀**
+
+### Useful Resources
+- AWS Official Website: https://aws.amazon.com/
+- AWS Global Infrastructure: https://aws.amazon.com/about-aws/global-infrastructure/
+- AWS Shared Responsibility Model: https://aws.amazon.com/compliance/shared-responsibility-model/
+
